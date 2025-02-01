@@ -1,6 +1,6 @@
 # Deploy-YoloV3-obj-detection-using-FastAPI
 
-## This lab is all about seeing how it feels to deploy a computer vision model trained to detect common objects in images. Model is deployed on localhost using FastAPI
+### This lab is all about seeing how it feels to deploy a YoloV3 model trained to detect common objects in images. Model is deployed on localhost using FastAPI
 
 API is coded using FastAPI, but the serving is done using 🔗uvicorn, which is a really fast Asynchronous Server Gateway Interface (ASGI) implementation. Both technologies are closely interconnected. Knowing that uvicorn handles the serving is sufficient for the purpose of this lab.
 
